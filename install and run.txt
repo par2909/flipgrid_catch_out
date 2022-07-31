@@ -1,13 +1,6 @@
-requirement    NET .6
-run cmd --dotnet tool install --global Microsoft.CST.ApplicationInspector.CLI` 
+requirement    .NET sdk version 6
+run cmd --dotnet tool install --global Microsoft.CST.ApplicationInspector.CLI`
 
-appinspector analyze -s D:\solidity_remixIDE\campaign_react_code_updated -o E:\configured_flipkart\result.json -f json
+pip install git os flask shutil json csv pandas plotly_express prettytable matplotlib nvdlib stat requests
 
-
-
-
-
-
-e:/configured_flipkart/nvd_results.py >nvd_result.txt
-
-pip install application  git
+run pyhton asa.py file
